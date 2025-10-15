@@ -544,7 +544,7 @@ ESPGroupBox:AddLabel("Chams Fill Color"):AddColorPicker("ChamsFillColor", {
 })
 
 ESPGroupBox:AddLabel("Chams Outline Color"):AddColorPick
-Default = Color3.fromRGB(255, 255, 255),
+    Default = Color3.fromRGB(255, 255, 255),
     Title = "Chams Outline Color",
     Transparency = 0,
     Callback = function(Value, Transparency)
